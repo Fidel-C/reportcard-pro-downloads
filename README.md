@@ -8,8 +8,7 @@ Your data never leaves your computer.
 | Your computer | File to download |
 |---|---|
 | Windows 10 / 11 | `ReportCardPro-Setup-*.exe` |
-| Mac (M1/M2/M3/M4) | `ReportCardPro-*-macos-arm64.pkg` |
-| Mac (Intel) | `ReportCardPro-*-macos-x64.pkg` |
+| Mac | Not available at the moment |
 | Linux (any) | `ReportCardPro-*-linux-x64-setup.run` |
 | Debian / Ubuntu | `reportcardpro_*.deb` |
 
