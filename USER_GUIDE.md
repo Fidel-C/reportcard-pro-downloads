@@ -81,23 +81,54 @@ or **Add template** to add your school's own design (a template `.json` file; fo
 copied into the app so it keeps working offline). Previews on this page use sample data.
 
 ### Import data
-Choose an Excel (`.xlsx`, `.xls`) or CSV file. Column names don't need to match anything exact: the app works them out.
-Recent imports are listed so you can re-open one without choosing the file again.
+Choose an Excel (`.xlsx`, `.xls`) or CSV file. Use your own column names: the app works them out. Recent imports are listed so you can
+re-open one without choosing the file again.
 
-For the best automatic result:
+**Not sure how the spreadsheet should look?** On the Import page, pick your **school level** (Nursery / Pre-school, Primary, Secondary or
+Any school), look at the preview of the columns, and press **Download example (.xlsx)**. The file is saved in your *Documents* folder
+under *ReportCard Pro examples*. Replace the five pretend students with yours, then import it: every column in the example is recognised
+automatically. The example has a second sheet, *How to fill this in*, that explains each column. The page also pre-selects the level that
+matches the template you chose.
 
-* One row per student.
-* Student columns such as **Name**, **ID** (admission number), **Class**, **Arm/Section**, **Term**, **Session**.
-* Optional attendance columns, such as **Days present** and **Days opened**.
-* Subjects as either one score column (**Maths**) or a pair (**Maths CA** and **Maths Exam**). Columns named total, average,
-  position, grade, remarks, etc. are treated as calculated values, not subjects.
+**What the spreadsheet needs**
+
+* **One row per student**, with the column headings in one row (row 1 is best).
+* **Only the student's name is required.** Everything else is optional, and you can delete columns you do not need.
+* **Scores as plain numbers**, one column per subject (`Mathematics`), or two columns when you record CA and exam separately
+  (`Mathematics CA` and `Mathematics Exam`). Leave a cell empty when there is no score.
+* **Do not add** Total, Average, Grade or Position: the app works them out. If they are there they are ignored, never mistaken for subjects.
+* **Behaviour and skills ratings** (1 to 5) in columns named like `Punctuality`, `Neatness`, `Honesty`, `Handwriting`, `Sports and Games`
+  are printed by templates that have behaviour and skills tables.
+* **Titles and notes are fine.** A title above the headings, a line such as `Nigeria | Class: SS2 | Term: First Term | Academic Session: 2026/2027`,
+  and notes or a grading key underneath the students are all understood. The app finds the headings row itself, skips the notes, and reads
+  the **class, term and session** from that line, so you do not need columns for them. After importing it tells you exactly what it did
+  ("Row 5 was used as the column headings", "Ignored 2 note rows below the students").
+* **Column letters.** Everywhere in the app columns are shown the way Excel shows them: `B · Student Name`. A column with no heading in
+  your file appears as `C (no heading)`.
 
 ### Mapping
 ![Checking the column mapping](docs/screenshots/mapping.png)
 
-Shows which spreadsheet column was matched to each report-card field. Confident matches are filled in for you; weaker
-guesses are flagged so you confirm them, and anything the app cannot match is left for you to choose. Nothing is guessed
-silently. Required fields that are unmapped, or subjects pointing at a missing column, are reported as errors.
+**What this page is for.** The report card has items (the student's name, class, days present ...) and your spreadsheet has columns
+(A, B, C ...). Mapping simply tells the app which column holds which item. It takes about a minute, and the app remembers your choices for
+spreadsheets with the same columns.
+
+**How to read it**
+
+1. Items are in three groups: **Required** (the student's name), **Shown on your report card** (the items your chosen template prints) and
+   **Optional extras**. Under each item you see a one-line explanation and an example taken from your file.
+2. The list on the right is that item's column. Choose another column from it at any time, or **not used** if your spreadsheet does not
+   have the item.
+3. The badge tells you what the app thinks: **Matched** means it is confident. **Please check** means it is unsure: look at the example,
+   then press **Confirm** or pick the right column. You can only continue once the items that matter (required items and the ones printed
+   on your template) are matched or confirmed. An unsure guess for an optional extra never blocks you and is simply left unused.
+4. **Class, term and session** found in your file's heading are used for every student when there is no column for them. Change them in
+   Settings.
+5. Further down, **Subjects** lists each subject with its column(s). Rename, remove, or add one if something is missing. **Behaviour and
+   skills ratings found** shows the rating columns the app detected. **Data check** lists problems (with the row number as Excel shows it),
+   and students with a problem are skipped while the rest are generated.
+
+The app never guesses silently, and it never treats Total, Average, Grade or Position columns as student details.
 
 ### Preview
 ![Previewing a report card](docs/screenshots/preview.png)
