@@ -6,7 +6,7 @@ and your students' data never leaves the machine.
 
 ![The ReportCard Pro dashboard](docs/screenshots/dashboard.png)
 
-**Need help?** Customer support is included with every plan: email **fidelchukwunyere@gmail.com**, or message Fidelis Chukwunyere
+**Need help?** Customer support is included with every plan: email **fidelcmedia@gmail.com**, or message Fidel Chukwunyere
 (@Fidelcmedia) on X, TikTok, Facebook, LinkedIn or YouTube.
 
 ---
@@ -263,7 +263,7 @@ Because a licence is tied to one computer, moving takes four steps (about five m
 1. **On the old computer** (if you still have it): **Settings → Data & backup → Create backup now**, and copy the backup file. Then open **License**
    and press **Remove licence**.
 2. **On the new computer:** install ReportCard Pro, open **License**, press **Copy** under *This computer's ID*, and send that ID to your vendor
-   (fidelchukwunyere@gmail.com), saying it replaces the licence of your old computer and quoting your **License ID** (shown on the License page).
+   (fidelcmedia@gmail.com), saying it replaces the licence of your old computer and quoting your **License ID** (shown on the License page).
 3. **Your vendor sends a new licence file** made for the new computer's ID. Choose it on the License page and press **Import licence file**.
 4. **Bring your data across:** in **Settings → Data & backup**, choose **Restore from backup** → **Prepare restore** for the backup you made in step 1, then close and reopen the app.
 

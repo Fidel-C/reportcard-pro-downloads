@@ -1,6 +1,6 @@
 # ReportCard Pro: downloads
 
-Offline report cards for Nigerian nursery, primary and secondary schools. By Fidelis Chukwunyere (@Fidelcmedia).
+Offline report cards for Nigerian nursery, primary and secondary schools. By Fidel Chukwunyere (@Fidelcmedia).
 Your data never leaves your computer.
 
 **[Download the latest version](../../releases/latest)**
@@ -25,7 +25,7 @@ Imports and exports are unlimited in number on every plan, and customer support 
 **A licence is tied to one computer** (for security). Send the *Computer ID* from the app's License page to get your licence file; moving to a new computer
 is a short, documented process: see the [User Guide](USER_GUIDE.md).
 
-**Support and licences:** fidelchukwunyere@gmail.com, or Fidelis Chukwunyere (@Fidelcmedia) on X, TikTok, Facebook, LinkedIn and YouTube.
+**Support and licences:** fidelcmedia@gmail.com, or Fidelis Chukwunyere (@Fidelcmedia) on X, TikTok, Facebook, LinkedIn and YouTube.
 
 **How to use the app:** read the [User Guide](USER_GUIDE.md), which has screenshots.
 
