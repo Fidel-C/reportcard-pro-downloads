@@ -62,7 +62,7 @@ Sections without data are left out of the report card.
 * **Your whole class (or school) in one run.**
 * **The combined PDF and ZIP**: every report card in a single file, ready to send to the printer or share.
 * **Nothing to reinstall or re-enter.** Your templates, settings, imports and history stay exactly as they are.
-* **Fully offline activation.** No account, no sign-in, no internet connection: you receive a small licence file and activate it.
+* **Fully offline activation.** No account, no sign-in, no internet connection: you receive a small licence file and import it.
 * **Renewals and changes are just a new file**: no new installer.
 
 **A licence is tied to one computer.** For security, every licence file works only on the computer it was issued for, and the app
@@ -224,14 +224,19 @@ Open **License** in the sidebar. The top banner shows your plan (for example **S
 
 | Item | Meaning |
 |---|---|
-| **School** | Who the licence was issued to. |
-| **License ID** | A reference for this licence (shown as "ID ..."). Quote it when you contact your vendor. |
-| **Expires** | The last day the licence works. It is valid **through** that date and stops the day after. Shows "never expires" if there is no end date. |
+| **Plan** and **Status** | Your plan name, and **Active** (licensed), **Expired**, **Free** or **Locked**. |
+| **School** (customer) | Who the licence was issued to. |
+| **ID ...** (top banner) | A reference for this licence. Quote it when you contact your vendor. |
+| **Valid until** | The last day the licence works. It is valid **through** that date and stops the day after. Shows **Lifetime** if there is no end date. |
+| **Days left** | Shown only in the last 30 days before the licence ends. |
 | **Students per import / run** | The most students allowed in **one spreadsheet import and in one run**. "Unlimited" means the app sets no limit. Over the limit, an import is refused with a message and a run covers the first students up to the limit. |
 | **Features** | What you may create: **Individual PDFs**, **ZIP export**, **Combined PDF**. A feature your licence does not include is refused when you try to use it. |
-| **Status** | **Active** (licensed), **Expired**, or **Free**. |
 | **Customer support** | Included with every plan. |
-| **This computer's ID** | A code like `XXXXX-XXXXX-XXXXX-XXXXX` made from your computer by a one-way hash (it is not your serial number). Your licence is issued for exactly this ID. |
+| **This computer's ID** | A code like `XXXXX-XXXXX-XXXXX-XXXXX` made from your computer by a one-way hash (it is not your serial number). Your licence is issued for exactly this ID. Press **Copy** to copy it. |
+| **Compare plans and buy** | Opens the shop page for ReportCard Pro in your browser, with this computer's ID already filled in, so the licence you buy is made for this computer. |
+| **Import licence file** / **Remove licence** | Import the file you received (or paste its text); remove the licence from this computer to return to the Free Forever plan. |
+
+If the page says **Licensing unavailable**, the app's licensing data was damaged or modified: reinstall ReportCard Pro.
 
 ### Your licence is tied to one computer (security)
 Every licence is issued for **one specific computer** and is checked against that computer's ID every time the app starts.
@@ -242,24 +247,24 @@ This protects you and your vendor from a paid licence being passed around. Your 
 ### Getting and activating a licence
 1. Open **License**, press **Copy** next to *This computer's ID*, and send it to your vendor along with your school name.
 2. The vendor sends you a licence file (`.rclicense`) made for that ID.
-3. Open **License**, choose the file (or paste its text), and press **Activate**. It works offline.
+3. Open **License**, choose the file (or paste its text), and press **Import licence file**. It works offline.
 
 ### Renewing
-Your vendor sends a new file. Activate it the same way; it replaces the old one. You do not need to reinstall anything.
+Your vendor sends a new file. Import it the same way; it replaces the old one. You do not need to reinstall anything.
 The app warns you in the 30 days before your licence expires.
 
 ### What happens when a licence expires
 The app does not lock you out or delete anything. It goes back to the **Free Forever** plan (10 students per import and run, individual PDFs)
 and shows "License expired on ...". Your data, templates, imports and history are untouched and your saved class lists stay available; only **new**
-imports and runs use the Free Forever limits. Activate a renewed licence to continue with your plan.
+imports and runs use the Free Forever limits. Import a renewed licence to continue with your plan.
 
 ### Moving your licence to another computer
 Because a licence is tied to one computer, moving takes four steps (about five minutes, no reinstalling of your data):
 1. **On the old computer** (if you still have it): **Settings → Data & backup → Create backup now**, and copy the backup file. Then open **License**
-   and press **Deactivate on this computer**.
+   and press **Remove licence**.
 2. **On the new computer:** install ReportCard Pro, open **License**, press **Copy** under *This computer's ID*, and send that ID to your vendor
    (fidelchukwunyere@gmail.com), saying it replaces the licence of your old computer and quoting your **License ID** (shown on the License page).
-3. **Your vendor sends a new licence file** made for the new computer's ID. Choose it on the License page and press **Activate**.
+3. **Your vendor sends a new licence file** made for the new computer's ID. Choose it on the License page and press **Import licence file**.
 4. **Bring your data across:** in **Settings → Data & backup**, choose **Restore from backup** → **Prepare restore** for the backup you made in step 1, then close and reopen the app.
 
 Notes: restoring a backup on the new computer does **not** carry the old licence across (it is refused there, which is expected): you need the new
