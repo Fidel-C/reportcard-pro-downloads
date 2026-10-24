@@ -293,34 +293,3 @@ you switch. Free Forever needs no licence and works on any computer.
 The app never goes online by itself, so updates arrive as files. You can either:
 
 * **Run the new installer over the old one.** Your data, settings and licence are kept; or
-* Open **Settings → Updates**, choose the `.update.json` file that came with the new installer, and follow the prompts. The app
-  checks that the update is signed by the vendor, is for your platform, is newer than your version, and that the file is intact.
-
-When a new version starts for the first time it saves a safety copy of your data and then upgrades it automatically. A
-newer version's data cannot be opened by an older version, so keep a backup and install updates rather than going back.
-
----
-
-## 7. Your data and privacy
-
-* Everything is stored in a folder on your computer (Settings → Data & backup shows where and has an **Open folder** button).
-* The app does not connect to the internet by itself. Links in **About** only open in your own browser when you click them.
-* Uninstalling keeps your data unless you choose to delete it.
-* Back up regularly; the app reminds you when it has been a while.
-
----
-
-## 8. Troubleshooting
-
-| Problem | What to try |
-|---|---|
-| Only 10 (or 30, 100) report cards were made, or an import was refused | That is your plan's student limit (see section 2). Exclude students to choose who, split the spreadsheet, or upgrade on the **License** page. |
-| ZIP / combined PDF is greyed out | Those exports are in the Standard and Premium plans. |
-| A very large run paused with "the disk is full" | Free some space, then press **Resume**. Report cards already created are kept. |
-| "Finish setup first" on Generate | Choose a template, import your data and confirm the mapping first. |
-| A student was skipped | On **Previous jobs** open **Errors**. Usually a missing name or score (see *When a score is missing* in Settings). Fix the spreadsheet and import again, or change the policy. |
-| A column wasn't recognised | On **Mapping**, choose the right column manually. |
-| Positions look different from expected | Check **Settings → Ranking & policy** and remember *Exclude* keeps a student in the ranking but *Remove* does not. |
-| Unknown field in the filename | Use only the fields shown as chips on the Generate page. |
-| The licence stopped working | See the messages table in section 5. |
-| Need help, a licence or a renewal | Contact your vendor, fidelcmedia (@fidelcmedia), using the links on **Settings → About** or the **License** page. |
